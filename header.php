@@ -5,7 +5,8 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title><?php bloginfo("title"); ?></title>
-     <link href="<?php get_bloginfo( 'stylesheet_url' );?>" rel="stylesheet" type="text/css">
+     <link href="<?php echo get_bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
+     <link href="<?php echo get_bloginfo( 'template_directory' );?>/grid.css" rel="stylesheet">
      <?php wp_head(); ?>
 </head>
 <body>
