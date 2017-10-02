@@ -1,0 +1,90 @@
+/*
+Theme Name: Flat Earth
+Theme URI: http://wp.collegeprep.me
+Author: Ross Salanoa
+Author URI: http://wp.collegeprep.me
+Description: This is a simple wordpress theme
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: flat-earth
+*/
+
+*, *::before, *::after{
+     box-sizing: border-box;
+}
+
+body{
+     margin: 0;
+     background-color: #32003F;
+     font-family: montserrat;
+     color: #FFF;
+}
+
+.container{
+     margin: 0 auto;
+}
+
+.topmargin{
+     margin: 25px 0;
+
+}
+
+nav{
+     display: flex;
+     justify-content: space-between;
+}
+
+nav ul{
+     width: 30%;
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+nav li{
+     display: block;
+}
+
+nav li a{
+     text-decoration: none;
+     color: #FFF;
+     font-size: .8rem;
+}
+
+hr{
+     width: 98%;
+}
+
+#intro{
+     padding: 50px 0;
+     display: flex;
+     align-items: center;
+     margin-bottom: 25px;
+}
+
+#intro-right p{
+     margin-bottom: 30px;
+}
+
+#intro-right a{
+     text-decoration: none;
+     color: #FFF;
+     border: 2px solid;
+     margin-top: 15px;
+     padding: 1.5rem 3rem;
+}
+
+#liveshow{
+     background-color: #3C004C;
+}
+
+footer{
+     background-color: rgba(255, 255, 255, 0.1);
+}
+footer .row{
+     font-size: .5rem;
+     padding: 3rem 0;
+     text-align: center;
+}
